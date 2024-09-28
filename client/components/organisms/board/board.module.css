@@ -1,0 +1,13 @@
+.boardsWrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+@media screen and (min-width:1024px) {
+    .boardsWrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

@@ -1,0 +1,15 @@
+.mainWrapper{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.6rem;
+}
+.title{
+    background-color: #3f92d6;
+    color: #fff;
+    padding: 0.3rem 0.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: sticky;
+    top: 3.4rem;
+    z-index: 10;
+    
+}

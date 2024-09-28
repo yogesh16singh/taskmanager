@@ -1,0 +1,25 @@
+.mainWrapper{
+    background-color: var(--global-primary-color-one);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 20;
+}
+.logoutBtn{
+    background-color: red !important;
+    padding: 0.5rem 1.5rem;
+}
+@media screen and (min-width: 1024px){
+    .mainWrapper{
+        padding: 0.6rem 2rem;
+    }
+    .btnWrapper{
+        display: flex;
+        gap: 0.7rem;
+    }
+}

@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --global-primary-color-one: #038cfc;
+  --global-primary-color-two: #c5dfec;
+}
+/*  */

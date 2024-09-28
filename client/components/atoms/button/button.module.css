@@ -1,0 +1,29 @@
+.mainWrapper{
+    border: unset;
+    padding: 0.2rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: 1px solid #fff;
+    color: var(--global-primary-color-one);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.mainWrapper:hover{
+    background-color:var(--global-primary-color-one) ;
+    color: #fff;
+}
+
+.primaryBtnBg{    
+    color: #fff;
+    background-color:var(--global-primary-color-one) ;
+    border: unset;
+    transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.primaryBtnBg:hover{
+    background-color: #fff;
+    color : var(--global-primary-color-one);
+    border: 1px solid var(--global-primary-color-one);
+}

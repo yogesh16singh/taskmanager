@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.4rem;
+    margin-top: 0.7rem;
+    gap: 1rem;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.input{
+    width: 15rem;
+    height: 2rem;
+    padding-left: 0.3rem;
+    font-size: 0.9rem;
+}
+.dropDown{
+    width: 15rem;
+    height: 2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+@media screen and (min-width : 559px) {
+    .wrapper{
+        flex-direction: row;
+    }
+    .dropDown{
+        width: 8rem;
+    }
+
+}

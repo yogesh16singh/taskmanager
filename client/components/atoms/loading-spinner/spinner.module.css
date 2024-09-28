@@ -1,0 +1,15 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(219, 215, 215, 0.643);
+    z-index: 40;
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

@@ -1,0 +1,12 @@
+.mainWrapper{
+    margin-top: 5rem;
+}
+.addTskBtn{
+    width: 100%;
+}
+@media screen and (min-width: 1024px){
+    .addTskBtn{
+        width: unset;
+        padding: 0.5rem 2rem;
+    }
+}
